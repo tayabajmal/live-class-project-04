@@ -1,6 +1,7 @@
-/*{
+*{
     border: 2px solid red;
-}*/
+    font-family: "poppins";
+}
 
 
 
@@ -33,5 +34,10 @@ li{
 .banner-container{
     display: flex;
     align-items: flex-start;
-    margin-top: 50px;;
+    margin-top: 100px;;
+}
+
+.heading-text{
+    font-size: 50px;
+    color: aqua;
 }
