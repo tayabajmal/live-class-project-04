@@ -1,9 +1,12 @@
 *{
-    border: 2px solid red;
-    font-family: "poppins";
+    /*border: 2px solid red;*/
+    font-family: "poppins", "sans-serif";
 }
 
 
+.container{
+    padding: 10px 10px 10px 10px;
+}
 
 .navbar-container{
  display: flex;
@@ -27,6 +30,10 @@ li{
     list-style: none;
 }
 
+li:hover{
+    font-weight: bold;
+}
+
 .nav-button{
     margin-right: 20px;
 }
@@ -38,6 +45,21 @@ li{
 }
 
 .heading-text{
+    display:block;
     font-size: 50px;
-    color: aqua;
+    color: #191970;
+    word-wrap: break-word;
+}
+
+span{
+    color:#4169E1;
+}
+
+.nav-button{
+    color: white;
+    background-color: #4169E1;
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+    border: none;
+    margin-top: 50px;
 }
